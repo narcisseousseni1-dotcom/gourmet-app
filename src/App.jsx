@@ -7,10 +7,9 @@ import { ShoppingCart, Calendar, Utensils, Plus, Minus, Trash2, CheckCircle, Clo
 const CONFIG = {
   restaurantName: "Gourmet App",
   subtitle: "Commandez & Réservez",
-  // 👇 Ajoute tes URLs de webhooks n8n ici quand tu seras prêt
   webhooks: {
-    order: "", // ex: "https://ton-n8n.com/webhook/commande"
-    reservation: "", // ex: "https://ton-n8n.com/webhook/reservation"
+    order: "https://narcisseousseni.app.n8n.cloud/webhook/commande",
+    reservation: "https://narcisseousseni.app.n8n.cloud/webhook/reservation",
   },
 };
 
